@@ -122,13 +122,3 @@ Try the project live: 👉 [https://irctc-rose.vercel.app](https://irctc-rose.ve
 - 🧼 **Auto-Cleanup** — ticket are auto-deleted 48 hours after booking.
 - 🔐 **Session Management** — Servlet-based login system.
 
----
-
-## 👤 Author
-
-**Prabhat Singh**  
-💼 [GitHub Profile](https://github.com/prabhatsingh415)  
-
----
-
-> 💬 For queries, feedback, or contributions, feel free to [open an issue](https://github.com/prabhatsingh415/-irctc-app-backend/issues) or submit a pull request.
