@@ -8,7 +8,7 @@ This repository contains the **backend implementation** for an **IRCTC clone**, 
 👉 [https://irctc-rose.vercel.app](https://irctc-rose.vercel.app)
 
 🗂️ **Frontend GitHub Repo**:  
-👉 [https://github.com/prabhatsingh415/IRCTC](https://github.com/prabhatsingh415/IRCTC)
+👉 [https://github.com/anandv29/IRCTC](https://github.com/anandv29/IRCTC)
 
 ---
 
@@ -89,7 +89,7 @@ Try the project live: 👉 [https://irctc-rose.vercel.app](https://irctc-rose.ve
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/prabhatsingh415/-irctc-app-backend.git
+    git clone https://github.com/anandv29/-irctc-app-backend.git
     cd -irctc-app-backend
     ```
 
