@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: irctc-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: irctc
+      MYSQL_USER: appuser
+      MYSQL_PASSWORD: appsecret
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./docker/mysql-init:/docker-entrypoint-initdb.d
+    ports:
+      - "3306:3306"
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: irctc-backend
+    restart: unless-stopped
+    depends_on:
+      - mysql
+    ports:
+      - "8080:8080"
+    environment:
+      PORT: 8080
+      DB_URL: jdbc:mysql://mysql:3306/irctc
+      DB_USER: appuser
+      DB_PASSWORD: appsecret
+      EMAIL_USERNAME: "youremail@example.com"
+      EMAIL_PASSWORD: "your-email-password"
+
+volumes:
+  mysql_data:
