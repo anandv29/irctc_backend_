@@ -33,8 +33,7 @@ public class VerificationEmail {
                 "Best regards,\n" +
                 "The IRCTC - Ticket Booking App Team\n" +
                 "Developed by Anand\n" +
-                "Contact Email: anand18580@gmail.com\n" +
-                "GitHub: https://github.com/anandv29\n";
+                "Contact Email: anand18580@gmail.com\n";
 
         EmailSender emailSender = new EmailSender(from);
         boolean success = emailSender.sendEmail(userName, toEmail, subject, message, null);
@@ -58,7 +57,7 @@ public class VerificationEmail {
                 "Best regards,\n" +
                 "Anand\n" +
                 "Contact: anand18580@gmail.com\n" +
-                "GitHub: https://github.com/anandv29\n";
+                "IRCTC - Ticket Booking App\n";
 
         EmailSender emailSender = new EmailSender(from);
         boolean success = emailSender.sendEmail(userName, toEmail, subject, message, filePath);
