@@ -48,7 +48,7 @@ public class TicketGenerator {
 
             // Footer
             g2d.setFont(new Font("Arial", Font.BOLD, 15));
-            g2d.drawString("DEVELOPED BY PRABHAT SINGH | CONTACT Email:- singh.prabhat.work@gmail.com", 500, image.getHeight() - 30);
+            g2d.drawString("DEVELOPED BY Anand | CONTACT Email:- anand18580@gmail.com", 500, image.getHeight() - 30);
 
             g2d.dispose();
 
