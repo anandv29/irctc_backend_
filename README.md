@@ -10,6 +10,9 @@ This repository contains the **backend implementation** for an **IRCTC clone**, 
 🗂️ **Frontend GitHub Repo**:  
 👉 [https://github.com/anandv29/IRCTC](https://github.com/anandv29/IRCTC)
 
+## 📄 Deployment Guide
+- See [DEPLOY.md](./DEPLOY.md) for build, env setup, DB schema, Docker, WAR and cleanup instructions.
+
 ---
 
 ## 🛠 Tech Stack
